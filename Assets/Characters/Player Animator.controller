@@ -75,7 +75,7 @@ AnimatorState:
   m_SpeedParameter: 
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
-  m_TimeParameter: 
+  m_TimeParameter: speed
 --- !u!206 &7130501966690183501
 BlendTree:
   m_ObjectHideFlags: 1
@@ -94,11 +94,19 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 8349542763059015795, guid: 5ea0d290fe2c76f47b000fa7fe269375, type: 3}
-    m_Threshold: 1
+    m_Threshold: 0.5
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Blend
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 1079665108409675491, guid: 5ea0d290fe2c76f47b000fa7fe269375, type: 3}
+    m_Threshold: 1
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: speed
     m_Mirror: 0
   m_BlendParameter: speed
   m_BlendParameterY: Blend
